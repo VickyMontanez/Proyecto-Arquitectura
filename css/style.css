@@ -226,9 +226,66 @@ nav{
 .content p{
     text-align: justify;
 }
+.carousel-control-next-icon, .carousel-control-prev-icon{
+    background-color: #193441;
+}
+/* SECCION DE CREADORES */
+.creadores{
+    background-image: url(/img/fondo_creadores.png);
+    background-size: cover;
+}
+#card{
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    border-radius: 1rem;
+    backdrop-filter: blur(1rem);
+    background-color: rgba(255, 255, 255, 0.493);
+
+}
+.img2 img{
+    height: 200px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    width: 100%;
+}
+.img1 img{
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 1;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 7px solid #fff;
+    margin-top: -80px;
+}
+i{
+    color: rgb(0, 60, 255);
+}
+.img3 img{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+.img4 img{
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 1;
+    height:90px;
+    width: 120px;
+    border-radius: 50%;
+    border: 7px solid #fff;
+    margin-left: -30px;
+}
 /* SECCION PIE DE PAGINA */
 footer{
     height: 50px;
+    color: white;
+}
+.iconos{
     color: white;
 }
 .contenedor-icon{
