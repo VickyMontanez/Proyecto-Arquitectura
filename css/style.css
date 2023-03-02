@@ -1,0 +1,39 @@
+@font-face {
+    font-family: "SimpleTread" ;
+    src: url(../fonts/SimpleThread_PERSONAL_USE_ONLY.otf);
+}
+@font-face {
+    font-family: "Rouhg";
+    src: url(../fonts/Rough\ Anthem.ttf);
+}
+@font-face {
+    font-family: "OurHand";
+    src: url(../fonts/Soft\ Elegance.ttf);
+}
+
+header{
+    height: 50px;
+}
+nav{
+    background-color: #193441;
+    color: white;
+}
+.dropdown-item{
+    color: #193441;
+}
+.navbar-nav{
+    font-family: "OurHand";
+    letter-spacing: 2px;
+}
+.navbar-brand{
+    font-family: "Rouhg";
+    letter-spacing: 3px;
+}
+.contenedor-icon{
+    position: absolute;
+    z-index:99;
+    bottom:.5%; 
+    left:50%;
+    font-size:26px;
+    animation: subir-bajar 1s ease infinite;
+}
