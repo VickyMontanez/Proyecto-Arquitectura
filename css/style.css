@@ -1,3 +1,4 @@
+/* FUENTES DE TIPOGRAFIA */
 @font-face {
     font-family: "SimpleTread" ;
     src: url(../fonts/SimpleThread_PERSONAL_USE_ONLY.otf);
@@ -10,7 +11,7 @@
     font-family: "OurHand";
     src: url(../fonts/Soft\ Elegance.ttf);
 }
-
+/* MENU DE NAVEGACION */
 nav{
     background-color: #193441;
     color: white;
@@ -26,7 +27,85 @@ nav{
     font-family: "Rouhg";
     letter-spacing: 3px;
 }
+/* SECCION INICIO */
+.title-word {
+    animation: color-animation 4s linear infinite;
+}
+.title-word-1 {
+    --color-1: #ff5900;
+    --color-2: #a00a07;
+    --color-3: #005d85;
+}  
+.title-word-2 {
+    --color-1: #fcac00;
+    --color-2: #008374;
+    --color-3: #320bc0;
+} 
+.title-word-3 {
+    --color-1: #005f54;
+    --color-2: #ca1310;
+    --color-3: #0bd404;
+} 
+.title-word-4 {
+    --color-1: #3329b9;
+    --color-2: #00a50e;
+    --color-3: #8b0200;
+}
+.title-word-5 {
+    --color-1: #f3a601;
+    --color-2: #5be7d7;
+    --color-3: #1c4d17;
+}
+.title-word-6 {
+    --color-1: #3329b9;
+    --color-2: #00a50e;
+    --color-3: #8b0200;
+}  
+@keyframes color-animation {
+    0%    {color: var(--color-1)}
+    32%   {color: var(--color-1)}
+    33%   {color: var(--color-2)}
+    65%   {color: var(--color-2)}
+    66%   {color: var(--color-3)}
+    99%   {color: var(--color-3)}
+    100%  {color: var(--color-1)}
+}
+#titulo .title{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    font-size: 2.5vw;
+    text-transform: uppercase;
+}
 
+#titulo{
+    text-align: center;
+    position: relative;
+    z-index: 99;
+}
+.bg-video{
+    position: absolute;
+    z-index: 10;
+    right: 0;
+    top:0;
+    height: 100%;
+    width: 100%;
+    background-size: 100%;
+    background-color: white;
+    background-size: contain;
+    object-fit: cover;
+}
+#titulo2 .title{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    font-size: 5vw;
+    text-transform: uppercase;
+} 
+#titulo2{
+    text-align: center;
+    position: relative;
+    z-index: 99;
+}
+/* SECCION PIE DE PAGINA */
 footer{
     height: 50px;
     color: white;
