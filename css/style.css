@@ -296,3 +296,8 @@ footer{
     font-size:26px;
     animation: subir-bajar 1s ease infinite;
 }
+@keyframes subir-bajar{
+    0%{ transform: translateY(8px);}
+    25%{ transform: translateY(-1px)}
+    100%{ transform: translateY(8px)}
+}
