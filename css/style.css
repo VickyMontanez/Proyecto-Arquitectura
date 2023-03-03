@@ -1,4 +1,6 @@
 /* FUENTES DE TIPOGRAFIA */
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+
 @font-face {
     font-family: "SimpleTread" ;
     src: url(../fonts/SimpleThread_PERSONAL_USE_ONLY.otf);
@@ -301,3 +303,54 @@ footer{
     25%{ transform: translateY(-1px)}
     100%{ transform: translateY(8px)}
 }
+
+
+/* PORTAFOLIO */
+.desaparecer {
+    @media min-height(576px) {
+        display-none
+    }
+}
+/* DESKTOP */
+.desktop {
+    color: #fff;
+    font-size: 10rem;
+    top: 56%;
+    left: 37%;
+    font-family: 'Amatic SC', cursive;
+}
+
+/* MOBILE */
+.mobile {
+    top: 48%;
+    left: 23%;
+    font-family: 'Amatic SC', cursive;
+    font-size: 5rem;
+    color: #fff;
+}
+
+.nimodo2 {
+    bottom: 5%;
+}
+
+
+
+.portafolioDesktop {
+    height: 90vh;
+}
+
+.imagen {
+    padding: .5rem;
+    border-radius: 2px;
+    border: 1px solid rgba(0, 0, 0, 0.141);
+    cursor: pointer;
+    
+}
+
+.no {
+    min-height: max-content;
+}
+
+/* OTROS */
+/* IMG MODALES */
+
